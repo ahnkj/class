@@ -1,0 +1,10 @@
+
+.wrapper{
+    display: flex;
+    background: aquamarine;
+    
+}
+
+section{
+    overflow:auto;
+}
