@@ -1,0 +1,90 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css");
+
+body {
+  background-color:#DDE1D4;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  width: 100vw;
+  height: 100vh;
+  margin:0;
+  padding:0;
+}
+
+.wrapper{
+  display:grid;
+  width:100%;
+  height:100%;
+  margin:0;
+  grid-template:
+                "a a b b" 1fr
+                "a a b b" 1fr
+                "c c d e" 1fr
+                "c c f g" 1fr /1fr 1fr 1fr 1fr;
+}
+
+p{
+  text-align:center;
+}
+
+.a{
+  background:#DAE7DE;
+  color:#F4460A;
+  grid-area: a;
+  font-size: 10vh;
+  background-size: cover;
+  box-sizing:border-box;
+  padding: 20vh 0;
+}
+.b{
+  background:#008A69;
+  color:#FFFCFE;
+  grid-area: b;
+  font-size: 10vh;
+  background-size: cover;
+  box-sizing:border-box;
+  padding: 20vh 0;
+}
+.c{
+  background:#F44607;
+  color:#FEFFFF;
+  grid-area: c;
+  font-size: 10vh;
+  background-size: cover;
+  box-sizing:border-box;
+  padding: 20vh 0;
+}
+.d{
+  background:#F7ABC5;
+  color:#F44512;
+  grid-area: d;
+  font-size: 5vh;
+  background-size: cover;
+  box-sizing:border-box;
+  padding: 10vh 0;
+}
+.e{
+  background:#5F5FA9;
+  color:#FBFAFB;
+  grid-area: e;
+  font-size: 5vh;
+  background-size: cover;
+  box-sizing:border-box;
+  padding: 10vh 0;
+}
+.f{
+  background:#FFC128;
+  color:#F34707;
+  grid-area: f;
+  font-size: 5vh;
+  background-size: cover;
+  box-sizing:border-box;
+  padding: 10vh 0;
+}
+.g{
+  background:#F97374;
+  color:#FDFBFB;
+  grid-area: g;
+  font-size: 5vh;
+  background-size: cover;
+  box-sizing:border-box;
+  padding: 10vh 0;
+}
