@@ -1,0 +1,101 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css");
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  width: 100%;
+  height: 100vh;
+}
+
+.wrapper{
+  display:grid;
+  grid-template-rows: 4vh repeat(3,1fr);
+  grid-template-columns: repeat(4,1fr);
+}
+
+.header{
+  grid-row:1/2;
+  grid-column:1/5;
+  background:gainsboro;
+}
+
+.black{
+  padding:2vh 0vw 0vh 1vw;
+
+  grid-row:2/3;
+  grid-column:1/2;
+  background: black;
+
+  font-size: 4vh;
+  color:white;
+}
+
+.purple{
+  grid-row:2/3;
+  grid-column:2/3;
+  background-color:slateblue;
+}
+
+.red{
+  padding:2vh 0vw 0vh 1vw;
+
+  grid-row:3/5;
+  grid-column:1/2;
+  background-color:red;
+  font-size: 3.5vh;
+  font-weight:500;
+  line-height:5vh;
+}
+
+.yellow{
+  padding:2vh 0vw 0vh 1vw;
+
+  grid-row:4/5;
+  grid-column:2/3;
+  background-color:yellow;
+  font-size: 3.5vh;
+  font-weight:500;
+}
+
+
+
+.speakers{
+  grid-row:2/5;
+  grid-column:3/4;
+  
+  padding:0 0 1vh 2vw;
+
+  font-size:3vh;
+  font-weight:500;
+  line-height:3.3vh;
+}
+.artists{
+  grid-row:2/5;
+  grid-column:4/5;
+
+  padding:0 0 1vh 2vw;
+
+  font-size:2.8vh;
+  font-weight:500;
+  line-height:3.1vh;
+}
+
+.title{
+  font-size: 2vh;
+  font-weight:600;
+  padding:1vh 0vh 2vh 0vh;
+}
+
+.highlight{
+  background:slateblue;
+  
+}
+.line{
+  
+  box-sizing:border-box;
+  padding-top:0.3vh;
+}
+
+.flip{
+  display:inline-block;
+  transform:rotate(180deg);
+}

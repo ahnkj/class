@@ -1,10 +1,90 @@
+body{
+    width:100%;
+    height:100vh;
+    margin:0;
+}
 
 .wrapper{
-    display: flex;
     background: aquamarine;
-    
+    display: flex;
+    width:100%;
+    height:100%;
+    margin: 0;
+}
+
+header{
+    background : #F0F0F0;
+    /* box-sizing: border-box; */
+    width :33%;
+    height :100%;
+}
+.header_top{
+    width:100%;
+    box-sizing: border-box;
+    padding :10vh 0px 72px 72px;
+    display: flex;
+}
+.header_top h1{
+    font-family: Helvetica,sans-serif;
+    font-size: 50pt;
+    line-height: 1em;
+    margin:0;
+    color: #E7473C;
+}
+
+.header_bottom{
+    color: #E7473C;
+    width: 100%;
+    box-sizing: border-box;
+    padding :72px;
+}
+
+.desc_top{
+    font-size: 20px;
+    margin-bottom: 1em;
+    width:80%;
+}
+
+.desc_bottom{
+    font-size: 16px;
+    width:80%;
+}
+.link{
+    width:80%;
+}
+
+.link a{
+    color:gray;
 }
 
 section{
-    overflow:auto;
+    background:#E7473C;
+    width:67%;
+    height :100%;
+    box-sizing: border-box;
+    padding:144px;
+}
+
+.card{
+    display:flex;
+    flex-direction:column;
+}
+
+.card_header{
+    display:flex;
+    padding: 0px 0px 18px 0px;
+}
+.blank{
+    flex-grow: 1;
+    width:1vw;
+}
+
+.a_svg:hover{
+    text-decoration: none;
+}
+.a_svg:link{
+    text-decoration: none;
+}
+.a_svg:visited{
+    text-decoration: none;
 }
