@@ -1,0 +1,21 @@
+.s0 {
+    font-family: sans-serif;
+    background-color:darkred;
+    transition: background-color 0.5s;
+}
+  
+.s1 {
+    font-family: sans-serif;
+    background-color: darksalmon;
+    transition: background-color 0.5s;
+}
+
+.s2 {
+    font-family: sans-serif;
+    background-color: darkseagreen;
+    transition: background-color 0.5s;
+}
+
+h1{
+    color:white;
+}
