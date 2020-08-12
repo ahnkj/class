@@ -1,0 +1,16 @@
+body {
+    font-family: sans-serif;
+}
+
+.range input{
+    width: 300px;
+}
+
+.description{
+    padding-top:10px;
+}
+
+.numberInput{
+    width: 100px;
+}
+  
