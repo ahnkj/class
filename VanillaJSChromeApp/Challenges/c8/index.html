@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Challenge</title>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" type="text/css" href="src/styles.css"/>
+  </head>
+
+  <body>
+    <div class='wrapper'>
+      
+      <div id='weather'>
+
+      </div>
+      
+      <div id='name'>
+          <form class="nameForm"><input type="text" placeholder="Enter your name"/> </form>
+          <div class="namePrint"><span></span> <button>X</button></div>
+      </div>
+      
+
+      <div id='clock'>
+        00:00:00
+      </div>
+      
+      <div id="toDoList"> 
+        <h1>Tasks</h1>
+        <form class="toDoForm"><input type="text" placeholder="Add task"/> </form>
+        
+        <h2>Pending</h2>
+        <ul class="pendingUl"></ul>
+            
+        <h2>Finished</h2>
+        <ul class="finishedUl"></ul>
+      </div>
+
+    </div>
+
+    <script src="src/toDoList.js"></script>
+    <script src="src/name.js"></script>
+    <script src="src/weather.js"></script>
+    <script src="src/clock.js"></script>
+    <script src="src/background.js"></script>
+  </body>
+</html>
